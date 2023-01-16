@@ -1,0 +1,142 @@
+.header {
+    margin: -8px;
+    padding: 30px 45px;
+    background-color: teal;
+    color: #FFF;
+    align-items: center;
+    font-size: 25px;
+    display: flex;
+    list-style: none;
+    gap:30px;
+}
+
+.nav a {
+    border-radius: 5px;
+    padding: 5px;
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(21, 152, 192);
+}
+
+.nav a:hover {
+    color: #c5cae9;
+    background-color: rgb(20, 93, 165);
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.login-box {
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    top: 30%;
+    left: calc(50% - 150px);
+    position: absolute;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    
+}
+h3{
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    position: relative;
+    padding-left: 30px;
+    left: 15%;
+    
+   
+}
+h5 {
+    color: aliceblue;
+    
+}
+.login-box input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login-box input[type ="text"] {
+    border: none;
+    
+    background: transparent;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+    color: antiquewhite;
+    font-family: Verdana;
+letter-spacing: 0.125em;
+
+
+}
+
+.login-box input[type = "password"] {
+    border: none;
+    
+    background: transparent;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+    font-family: Verdana;
+    letter-spacing: 0.125em;
+    color: antiquewhite;
+
+}
+
+.login-box input[type = "log"] {
+    border: none;
+    outline: none;
+    
+    background: rgb(214, 153, 153);
+    
+    box-sizing: border-box;
+    margin-top: 10px;
+    width: 155px;
+    height: 50px;
+    text-align: center;
+    color: rgb(3, 3, 3);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    top: 50%;
+    left: 22%;
+    position: absolute;
+}
+
+.login-box input[type = "log"]:hover {
+
+cursor: pointer;
+background-color: aqua;
+}
+
+a[type = "link1"] {
+    position: absolute;
+    font-size: large;
+    top:70%;
+    left: 22%;
+    color: gray;
+
+}
+
+a[type = "link2"] {
+    position: absolute;
+    font-size: large;
+    top:85%;
+    left: 22%;
+    color: gray;
+}
+
+a[type = "link2"]:hover {
+    color:rgb(250, 250, 250);
+    
+}
+
+a[type = "link1"]:hover {
+    color:rgb(250, 250, 250);
+
+}
+
+html {
+    background-color: rgb(175, 220, 235);
+}

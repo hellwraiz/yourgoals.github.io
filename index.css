@@ -1,0 +1,122 @@
+.header {
+    margin: -8px;
+    padding: 30px 45px;
+    background-color: teal;
+    color: #FFF;
+    align-items: center;
+    font-size: 25px;
+    display: flex;
+    list-style: none;
+    gap:30px;
+}
+
+.nav a {
+    border-radius: 5px;
+    padding: 5px;
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(21, 152, 192);
+}
+
+.nav a:hover {
+    color: #c5cae9;
+    background-color: rgb(20, 93, 165);
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.goals a {
+    display: block;
+    margin: 10%;
+    border-radius: 100px;
+    padding: 5px;
+    background-color: rgb(21, 152, 192);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.goals a:hover {
+    color: #c5cae9;
+    background-color: rgb(20, 93, 165);
+}
+
+.parent{
+    margin-top: -120px;
+    margin-bottom: -150px;
+    display: flex; 
+    flex-direction: row;
+
+
+    height: 100vh;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    justify-content: space-around;
+    
+    align-items: center;
+
+}
+.Child {
+    border-radius: 15px;
+    padding: 20px;
+    background: #1abc9c;
+    align-items: center;
+    flex-basis: 300px;
+    width: 500px;
+}
+
+input[type = "submit"] {
+    border: none;
+        outline: none;
+        
+        background: rgb(214, 153, 153);
+        
+        box-sizing: border-box;
+        margin-top: 10px;
+        width: 155px;
+        height: 50px;
+        text-align: center;
+        color: rgb(3, 3, 3);
+        font-size: 15px;
+        
+}
+input[type = "submit"]:hover {
+    
+    cursor: pointer;
+    background-color: aqua;
+}
+input[type ="text"]  {
+    border: none;
+        background: #c5cae9;
+        border-bottom: 2px solid rgb(0, 0, 0);
+        font-weight: bold;
+        color: black;
+        font-family: Verdana;
+        
+}
+    
+h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+    
+h2 {
+    text-align: center;
+    color: rgb(2, 31, 83);
+}
+textarea {
+    resize: none;
+    height: 300px;
+    width: 480px;  
+    
+}
+
+html {
+    background-color: rgb(175, 220, 235);
+}

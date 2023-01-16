@@ -1,0 +1,78 @@
+.header {
+    margin: -8px;
+    padding: 30px 45px;
+    background-color: teal;
+    color: #FFF;
+    align-items: center;
+    font-size: 25px;
+    display: flex;
+    list-style: none;
+    gap:30px;
+}
+
+.nav a {
+    border-radius: 5px;
+    padding: 5px;
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(21, 152, 192);
+}
+
+.nav a:hover {
+    color: #c5cae9;
+    background-color: rgb(20, 93, 165);
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+    margin: auto;
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.goal {
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #a2cff8;
+    padding: 10px;
+    font-size: 20px;
+}
+
+html {
+    background-color: rgb(175, 220, 235);
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.goal_options {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.goal_options a {
+    font-size: 25px;
+    padding: 5px;
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(21, 152, 192);
+}
+
+.goal_options a:hover {
+    color: #c5cae9;
+    background-color: rgb(20, 93, 165);
+}
+
+h4 {
+    margin: 0;
+}
